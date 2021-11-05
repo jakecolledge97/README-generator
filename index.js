@@ -7,7 +7,7 @@ const questions = [
     {
         type: 'input',
         message: 'What is your name?',
-        name: 'username'
+        name: 'name'
     },
     {
         type: 'input',

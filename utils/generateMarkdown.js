@@ -30,6 +30,14 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {}
 
+function noContributors(contributors){
+  if(contributors === "none"){
+    return ""
+  }else{
+    return contributors
+  }
+}
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
@@ -56,7 +64,7 @@ ${data.usage}
 
 ## Contributors 
 ${data.name}
-${data.contributions}
+${noContributors(data.contributions)}
 
 ## Tests
 ${data.tests}
