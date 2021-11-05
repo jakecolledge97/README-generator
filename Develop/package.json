@@ -1,5 +1,5 @@
 {
-  "name": "readme-gen",
+  "name": "README-generator",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,8 +9,6 @@
   "author": "Jake Colledge",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^8.2.0"
+    "inquirer": "^6.3.1"
   }
 }
-
-
