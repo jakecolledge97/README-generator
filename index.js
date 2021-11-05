@@ -32,7 +32,7 @@ const questions = [
     {
         type: 'input',
         message: 'Where there any contributions made to your application?',
-        name: 'contibutions',
+        name: 'contributions',
         default: 'none'
     },
     {
@@ -60,7 +60,7 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((answers) => {
-        fs.writeFileSync("README1.md", generateMarkdown(answers))
+        fs.writeFileSync("README.md", generateMarkdown(answers))
     })
     .then(() => {console.log("You successfully created a README!")})
     .catch((err)=> {console.log(err)})

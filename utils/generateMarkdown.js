@@ -36,14 +36,14 @@ function generateMarkdown(data) {
 
 ${renderLicenseBadge(data.license)}
 
-# Table of Contents
+## Table of Contents
 
-- [Description](#Description)
-- [Installation](#Installation)
-- [Usage](#Usage)
-- [Contributors](#Contributors)
-- [Tests](#Tests)
-- [Licensing](#License)
+- [Description](##Description)
+- [Installation](##Installation)
+- [Usage](##Usage)
+- [Contributors](##Contributors)
+- [Tests](##Tests)
+- [Licensing](##License)
 
 ## Descripton
 ${data.description}
@@ -62,7 +62,7 @@ ${data.contributions}
 ${data.tests}
 
 ## License
-${renderLicenseLink(data.license)}
+This application uses the ${renderLicenseLink(data.license)}
 `;
 }
 
