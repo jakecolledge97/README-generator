@@ -46,7 +46,7 @@ ${renderLicenseBadge(data.license)}
 - [Licensing](#License)
 
 ## Descripton
-${datadescription}
+${data.description}
 
 ## Installation
 ${data.installation}
@@ -62,7 +62,7 @@ ${data.contributions}
 ${data.tests}
 
 ## License
-${renderLicenseBadge(data.license)}
+${renderLicenseLink(data.license)}
 `;
 }
 
