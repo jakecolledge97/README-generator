@@ -1,4 +1,4 @@
-# README Generator
+# Read Me Generator
 
 ![license:MIT](https://img.shields.io/badge/License-MIT-informational)
 
@@ -12,20 +12,20 @@
 - [Licensing](##License)
 
 ## Descripton
-This Application will prompt the user questions and then create a professional readme file for their application
+This Application, on running, will prompt the user with several questions, and with the answers to those questions will compile a professional readme.md file that can be used for the applications git repository.
 
 ## Installation
-The user must have node.js installed on their machine in order to run this application
+The user will need to install node.js in order to run this application.
 
 ## Usage
-When the application is opened in the chosen editer, run "node index.js" in the terminal and the app will start
+Once node.js is installed and after opening the application in the users preferred editor, open the terminal and use the command 'npm install' (only on the first run), after the user can use the command 'node index.js' to run the application.
 
 ## Contributors 
 Jake Colledge
 
 
 ## Tests
-Run the application and follow the prompts
+To test, the user can run the application and follow the prompts.
 
 ## License
-This application uses the [MIT License]https://opensource.org/licenses/MIT
+This application uses the [MIT License](https://opensource.org/licenses/MIT)

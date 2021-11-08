@@ -18,11 +18,11 @@ function renderLicenseLink(license) {
   if(!license){
     return "*No license*"
   }else if(license === "MIT"){
-    return "[MIT License]https://opensource.org/licenses/MIT"
+    return "[MIT License](https://opensource.org/licenses/MIT)"
   }else if(license === "Apache License 2.0"){
-    return "[Apache License 2.0]https://www.apache.org/licenses/LICENSE-2.0"
+    return "[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)"
   }else{
-    return "[GNU General Public License]https://www.gnu.org/licenses/gpl-3.0.en.html"
+    return "[GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.en.html)"
   }
 }
 
